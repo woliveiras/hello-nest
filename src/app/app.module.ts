@@ -2,7 +2,7 @@ import { Module } from '@nestjs/common';
 import { AppService } from './app.service';
 
 import { AppController } from './app.controller';
-import { CatsController } from './cats.controller';
+import { CatsController } from '../cats/cats.controller';
 
 @Module({
   imports: [],

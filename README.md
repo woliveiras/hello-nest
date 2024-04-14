@@ -32,28 +32,39 @@ npm run start
 npm run start:dev
 ```
 
-``bash
+## Documentation (openapi)
+
+Run the application:
+
+```bash
+npm run start:dev
+```
+
+And access the docs endpoint: [http://localhost:3000/api](http://localhost:3000/api).
 
 # production mode
 
+```bash
 npm run start:prod
-
-````
+```
 
 ## Test
 
-```bash
-# unit tests
-npm run test
-````
+### unit tests
 
 ```bash
-# e2e tests
+npm run test
+```
+
+### e2e tests
+
+```bash
 npm run test:e2e
 ```
 
+### test coverage
+
 ```bash
-# test coverage
 npm run test:cov
 ```
 
